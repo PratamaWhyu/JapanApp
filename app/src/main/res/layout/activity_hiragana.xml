@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loadingscreen"
+    tools:context=".LoginActivity"
+    tools:layout_editor_absoluteX="77dp"
+    tools:layout_editor_absoluteY="-7dp">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/buttonback"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"></ImageView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIRAGANA"
+        android:textColor="#FEFBFB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <GridLayout
+            android:layout_width="419dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:columnCount="5"
+            android:rowCount="10">
+
+            <ImageView
+                android:id="@+id/imageViewhira1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/hira1" />
+            <ImageView
+                android:id="@+id/imageViewhira2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/hira2" />
+
+            <ImageView
+                android:id="@+id/imageViewhira3"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:srcCompat="@drawable/hira3" />
+            <ImageView
+                android:id="@+id/imageViewhira4"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/hira4" />
+            <ImageView
+                android:id="@+id/imageViewhira5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/hira5" />
+
+            <ImageView
+                android:id="@+id/imageViewhira6"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira6"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira7"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira7"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira8"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira9"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira10"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira10"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira11"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira12"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira13"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira14"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira15"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira16"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira17"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira18"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira19"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira20"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira21"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira22"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira23"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira24"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira25"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/hira26" />
+            <ImageView
+                android:id="@+id/imageViewhira26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/hira27" />
+            <ImageView
+                android:id="@+id/imageViewhira27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/hira28" />
+            <ImageView
+                android:id="@+id/imageViewhira28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/hira29" />
+            <ImageView
+                android:id="@+id/imageViewhira29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/hira30" />
+            <ImageView
+                android:id="@+id/imageViewhira30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira31"/>
+            <ImageView
+                android:id="@+id/imageViewhira31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira32"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira33"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira34"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira35"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira510"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira36"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira37"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira38"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira39"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira40"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira41"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira42"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira43"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira44"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira45"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira46"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira47"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira48"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/teshira1"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/imageViewhira24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/hira50"/>
+
+
+
+        </GridLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

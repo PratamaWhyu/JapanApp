@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JapanApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".PilihanQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizKanjiLevelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizResults"
+            android:exported="false" />
+        <activity
+            android:name=".QuizKatakanaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizKanjiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizKosakataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizHiraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" >
+
+
+        </activity>
+        <activity
+            android:name=".KosakataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KanjiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KatakanaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HiraganaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuUtamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

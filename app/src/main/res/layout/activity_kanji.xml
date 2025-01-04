@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/loadingscreen"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageViewBack"
+        android:src="@drawable/buttonback"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        >
+    </ImageView>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KANJI"
+        android:textColor="#FEFBFB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ScrollView
+        android:layout_width="413dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:columnCount="3"
+            android:rowCount="10">
+
+
+            <ImageView
+                android:id="@+id/imageViewkanji1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji1" />
+            <ImageView
+                android:id="@+id/imageViewkanji2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji2" />
+            <ImageView
+                android:id="@+id/imageViewkanji3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji3" />
+            <ImageView
+                android:id="@+id/imageViewkanji4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji4" />
+            <ImageView
+                android:id="@+id/imageViewkanji5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji5" />
+            <ImageView
+                android:id="@+id/imageViewkanji6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji6" />
+            <ImageView
+                android:id="@+id/imageViewkanji7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji7" />
+            <ImageView
+                android:id="@+id/imageViewkanji8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji8" />
+            <ImageView
+                android:id="@+id/imageViewkanji9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji9" />
+            <ImageView
+                android:id="@+id/imageViewkanji10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji10" />
+            <ImageView
+                android:id="@+id/imageViewkanji11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji30" />
+            <ImageView
+                android:id="@+id/imageViewkanji12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji12" />
+            <ImageView
+                android:id="@+id/imageViewkanji13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:srcCompat="@drawable/kanji13" />
+            <ImageView
+                android:id="@+id/imageViewkanji14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji14" />
+
+
+            <ImageView
+                android:id="@+id/imageViewkanji15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji15" />
+            <ImageView
+                android:id="@+id/imageViewkanji16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji16" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji17" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji18" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji19" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji20" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji21" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji22" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji23" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji24" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji25" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji26" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji27" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji28" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji29" />
+
+            <ImageView
+                android:id="@+id/imageViewkanji30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:srcCompat="@drawable/kanji11" />
+
+
+        </GridLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

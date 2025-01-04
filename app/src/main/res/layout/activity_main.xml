@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loadingscreen"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_marginStart="10dp"
+
+        android:layout_width="40dp"
+        android:layout_height="75dp"
+
+        android:src="@drawable/backbtn"/>
+
+    <ImageView
+        android:id="@+id/quizIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="80dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ikonquiz" />
+
+    <TextView
+        android:id="@+id/chooseTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quizIcon"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="500dp"
+        android:text="YUK DI PILIH DULU!"
+        android:textColor="@color/merahutama"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/chooseTopic"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/hiraLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight ="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/initial_selections"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="あ"
+                android:textColor="#CC000000"
+                android:textSize="50dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Hiragana"
+                android:textColor="#CC000000"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kanaLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight ="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/initial_selections"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="ア"
+                android:textColor="#CC000000"
+                android:textSize="50dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Katakana"
+                android:textColor="#CC000000"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/kanjiLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight ="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/initial_selections"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="漢字"
+                android:textColor="#CC000000"
+                android:textSize="50dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Kanji"
+                android:textColor="#CC000000"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kosaLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight ="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/initial_selections"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="言葉"
+                android:textColor="#CC000000"
+                android:textSize="50dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Kosakata"
+                android:textColor="#CC000000"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startQuizButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_shape"
+        android:text="Start Quiz"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loadingscreen"
+    tools:context=".QuizResults">
+
+    <ImageView
+        android:id="@+id/congrats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:maxHeight="300dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/emothebat" />
+
+    <TextView
+        android:id="@+id/success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/congrats"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Kamu Telah Menyelesaikan Quiz Dengan Baik"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_below="@+id/success"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/correctAnswers"
+            android:text="Jawaban Benar : 0"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#00C853"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inCorrectAnswer"
+            android:layout_marginTop="5dp"
+            android:text="Jawaban Salah : 0"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#DD2C00"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startNewQuizBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Mulai Quiz Lagi"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background_shape"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="50dp"/>
+
+</RelativeLayout>
