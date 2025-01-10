@@ -12,27 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JapanApp"
         tools:targetApi="31">
-        <activity
-            android:name=".PilihanQuizActivity"
-            android:exported="false" />
-        <activity
-            android:name=".QuizKanjiLevelActivity"
-            android:exported="false" />
+
+
         <activity
             android:name=".QuizResults"
             android:exported="false" />
-        <activity
-            android:name=".QuizKatakanaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".QuizKanjiActivity"
-            android:exported="false" />
-        <activity
-            android:name=".QuizKosakataActivity"
-            android:exported="false" />
-        <activity
-            android:name=".QuizHiraActivity"
-            android:exported="false" />
+
+
+        
         <activity
             android:name=".QuizActivity"
             android:exported="false" />
